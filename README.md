@@ -37,12 +37,11 @@
     nth value to the function. We use a for Loop to increment this counter number and call the Fibonacci function at every iteration.
 
     For example, you would call the function like so:
-        ```
-        $num =10;
-        for($counter = 0; $counter < $num; $counter++)
-        {
-            echo Fibonacci($counter).' ';
-        }
-        ```
+```$num =10;
+   for($counter = 0; $counter < $num; $counter++)
+   {
+       echo Fibonacci($counter).' ';
+   }
+```
 
     This will print out: 0 1 1 2 3 5 8 13 21 34
